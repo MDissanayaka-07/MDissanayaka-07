@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-<img src="images/profile.jpg" width="220" style="border-radius:50%" />
+<img src="images/profile.jpeg" width="220" style="border-radius:50%" />
 </p>
 
 ---
