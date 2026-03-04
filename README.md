@@ -1,39 +1,67 @@
 <h1 align="center">Hi 👋, I'm Madhuwantha Dissanayaka</h1>
-<h3 align="center">Full Stack Developer | Python Enthusiast</h3>
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Python+Enthusiast;Undergraduate+Student;Passionate+about+Web+Development" />
+</p>
 
 ---
 
-### 👨‍💻 About Me
-- 🎓 Undergraduate student
-- 💻 Interested in Full Stack Development
-- 🐍 Learning Python & Web Technologies
-- 🌱 Currently learning React & Backend Development
+<p align="center">
+<img src="images/profile.jpg" width="220" style="border-radius:50%" />
+</p>
 
 ---
 
-### 🛠️ Technologies & Tools
-- HTML
-- CSS
-- JavaScript
-- React
-- Python
-- Git & GitHub
+## 👨‍💻 About Me
+
+- 🎓 Undergraduate student  
+- 💻 Interested in **Full Stack Development**  
+- 🐍 Passionate about **Python Programming**  
+- 🌱 Currently learning **React, Backend Development & Modern Web Technologies**  
+- ⚡ Love building **web applications and software projects**
 
 ---
 
-### 📊 GitHub Stats
-![Madhuwantha's GitHub stats](https://github-readme-stats.vercel.app/api?username=MDissanayaka-07&show_icons=true&theme=tokyonight)
+## 🚀 Tech Stack
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=html,css,js,react,python,git,github,vscode" />
+</p>
+
 
 ---
 
-### 🔥 Streak Stats
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MDissanayaka-07&theme=tokyonight)
+## 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MDissanayaka-07&theme=tokyonight" />
+</p>
 
 ---
 
-### 🌐 Connect with Me
-- 📧 Email: madhudissa07@gmail.com
-- 💼 LinkedIn: Add your LinkedIn link
+
+
+## 🌐 Connect with Me
+
+<p align="left">
+
+<a href="https://www.linkedin.com/in/madhuwantha-dissanayaka-69a5732a5/">
+<img src="https://skillicons.dev/icons?i=linkedin" height="40"/>
+</a>
+
+<a href="https://github.com/MDissanayaka-07">
+<img src="https://skillicons.dev/icons?i=github" height="40"/>
+</a>
+
+</p>
+
+📧 Email: madhudissa07@gmail.com
+
+---
+
+## ⚡ Fun Fact
+
+💡 I enjoy learning new technologies and building projects that solve real-world problems.
 
 ---
 
