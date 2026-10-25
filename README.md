@@ -1,74 +1,96 @@
+<div align="center">
+
+<!-- ASCII Profile Card (Terminal Dashboard) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="MDissanayaka-07's GitHub profile" src="dark_mode.svg" />
+  <img alt="MDissanayaka-07's GitHub profile" src="dark_mode.svg" width="100%" />
 </picture>
 
-<h1 align="center">Hi 👋, I'm Madhuwantha Dissanayaka</h1>
+<br /><br />
 
-<p align="center" crop="circle">
-<img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Python+Enthusiast;Undergraduate+Student;Passionate+about+Web+Development" />
-</p>
+<!-- Profile Avatar -->
+<img src="images/avatar.png" width="140" alt="Madhuwantha Dissanayaka" />
 
----
+# Hi 👋, I'm Madhuwantha Dissanayaka
 
-<p align="center">
-<img src="images/profile.jpeg" width="220" style="border-radius:50%" />
-</p>
+<!-- Animated Typing Subtitle -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=550&lines=Full+Stack+Developer;Python+%26+JavaScript+Enthusiast;Undergraduate+Student;Passionate+about+Building+Scalable+Apps" alt="Typing SVG" />
+
+<br /><br />
+
+<!-- Social Connect Badges -->
+<a href="https://www.linkedin.com/in/madhuwantha-dissanayaka-69a5732a5/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:madhudissa07@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://github.com/MDissanayaka-07" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🎓 Undergraduate student  
-- 💻 Interested in **Full Stack Development**  
-- 🐍 Passionate about **Python Programming**  
-- 🌱 Currently learning **React, Backend Development & Modern Web Technologies**  
-- ⚡ Love building **web applications and software projects**
+- 🎓 **Undergraduate Student** based in Moratuwa, Sri Lanka 🇱🇰
+- 💻 Passionate about **Full Stack Development** & modern software engineering
+- 🐍 Love crafting robust applications and clean code with **Python** & **JavaScript/TypeScript**
+- 🌱 Actively building and learning with **React**, **Next.js**, **Node.js**, and **System Architecture**
+- 🚀 Experienced in developing web applications, desktop POS systems, and AI-assisted educational platforms
+- ⚡ **Fun Fact:** I enjoy exploring new tech stacks and solving real-world challenges through code!
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Tech Stack & Skills
 
+### 💻 Programming Languages
 <p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,python,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,cs,c,html,css" alt="Programming Languages" />
 </p>
 
-
----
-
-## 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MDissanayaka-07&theme=tokyonight" />
-</p>
-
----
-
-
-
-## 🌐 Connect with Me
-
+### 🌐 Frameworks & Runtimes
 <p align="left">
-
-<a href="https://www.linkedin.com/in/madhuwantha-dissanayaka-69a5732a5/">
-<img src="https://skillicons.dev/icons?i=linkedin" height="40"/>
-</a>
-
-<a href="https://github.com/MDissanayaka-07">
-<img src="https://skillicons.dev/icons?i=github" height="40"/>
-</a>
-
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,dotnet" alt="Frameworks and Runtimes" />
 </p>
 
-📧 Email: madhudissa07@gmail.com
+### 🧰 Tools & Platforms
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Tools and Platforms" />
+</p>
 
 ---
 
-## ⚡ Fun Fact
+## 📊 GitHub Analytics
 
-💡 I enjoy learning new technologies and building projects that solve real-world problems.
+<div align="center">
+
+  <img src="https://github-readme-stats.vercel.app/api?username=MDissanayaka-07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=c9d1d9" height="165" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MDissanayaka-07&theme=tokyonight&hide_border=true&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" height="165" alt="GitHub Streak" />
+
+  <br /><br />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MDissanayaka-07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=c9d1d9" height="165" alt="Top Languages" />
+
+</div>
 
 ---
 
-⭐️ From [MDissanayaka-07](https://github.com/MDissanayaka-07)
+## 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| 📚 **[lms-physics-app](https://github.com/MDissanayaka-07/lms-physics-app)** | Advanced Level Physics LMS featuring AI-driven assistance, interactive quizzes, and student performance analytics. | JavaScript, HTML, CSS |
+| 📦 **[WarehousePOS](https://github.com/MDissanayaka-07)** | Desktop-based warehouse and POS management system for inventory, sales, suppliers, employees, and billing analytics. | C#, .NET |
+| 🎲 **[SmartCube](https://github.com/MDissanayaka-07/SmartCube)** | Interactive embedded hardware and software system. | C |
+| ☕ **[CoffeeShop](https://github.com/MDissanayaka-07/CoffeeShop)** | Web application designed for coffee shop management and online order workflows. | JavaScript, Web Stack |
+
+---
+
+<div align="center">
+  <p>⭐️ Designed & Maintained by <a href="https://github.com/MDissanayaka-07"><b>Madhuwantha Dissanayaka</b></a></p>
+</div>
