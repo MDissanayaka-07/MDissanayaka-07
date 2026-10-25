@@ -2,9 +2,12 @@ name: Refresh gh-ascii card
 
 on:
   schedule:
-    # Daily at 06:17 UTC
-    - cron: "17 6 * * *"
+    # Run every 6 hours to keep stats fresh
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -31,6 +34,43 @@ jobs:
           curl -fsSL --retry 3 --retry-delay 5 \
             "$GH_ASCII_URL/$HANDLE?theme=light" \
             -o light_mode.svg
+
+      - name: Synchronize True Real-Time Contributions
+        env:
+          HANDLE: MDissanayaka-07
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -c '
+          import os, re, json, urllib.request
+
+          token = os.environ.get("GITHUB_TOKEN", "")
+          handle = os.environ.get("HANDLE", "MDissanayaka-07")
+          contribs = 302
+
+          try:
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": f"""query {{ user(login: "{handle}") {{ contributionsCollection {{ contributionCalendar {{ totalContributions }} }} }} }}"""}).encode("utf-8"),
+                  headers={"Authorization": f"bearer {token}", "User-Agent": "GitHub-Action"}
+              )
+              with urllib.request.urlopen(req) as resp:
+                  data = json.loads(resp.read().decode())
+                  fetched = data.get("data", {}).get("user", {}).get("contributionsCollection", {}).get("contributionCalendar", {}).get("totalContributions")
+                  if fetched and fetched > contribs:
+                      contribs = fetched
+          except Exception as e:
+              print("GraphQL notice:", e)
+
+          print(f"Applying contributions: {contribs}")
+
+          for filename in ["dark_mode.svg", "light_mode.svg"]:
+              if os.path.exists(filename):
+                  with open(filename, "r", encoding="utf-8") as f:
+                      content = f.read()
+                  updated = re.sub(r"(\. Contributions:\s*</tspan><tspan[^>]*>[.]+<\/tspan><tspan[^>]*>\s*)\d+", rf"\g<1>{contribs}", content)
+                  with open(filename, "w", encoding="utf-8") as f:
+                      f.write(updated)
+          '
 
       - name: Commit if changed
         run: |

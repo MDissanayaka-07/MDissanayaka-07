@@ -64,9 +64,16 @@
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & Contributions
 
 <div align="center">
+
+  <!-- Real-Time GitHub Contribution Calendar -->
+  <a href="https://github.com/MDissanayaka-07">
+    <img src="https://ghchart.rshah.org/00F7FF/MDissanayaka-07" alt="Madhuwantha Dissanayaka's GitHub Contribution Calendar" width="100%" />
+  </a>
+
+  <br /><br />
 
   <img src="https://github-readme-stats.vercel.app/api?username=MDissanayaka-07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=c9d1d9" height="165" alt="GitHub Stats" />
   &nbsp;
