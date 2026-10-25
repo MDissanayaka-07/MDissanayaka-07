@@ -64,26 +64,7 @@
 
 ---
 
-## 📊 GitHub Analytics & Contributions
 
-<div align="center">
-
-  <!-- Real-Time GitHub Contribution Calendar -->
-  <a href="https://github.com/MDissanayaka-07">
-    <img src="https://ghchart.rshah.org/00F7FF/MDissanayaka-07" alt="Madhuwantha Dissanayaka's GitHub Contribution Calendar" width="100%" />
-  </a>
-
-  <br /><br />
-
-  <img src="https://github-readme-stats.vercel.app/api?username=MDissanayaka-07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=c9d1d9" height="165" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MDissanayaka-07&theme=tokyonight&hide_border=true&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" height="165" alt="GitHub Streak" />
-
-  <br /><br />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MDissanayaka-07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=c9d1d9" height="165" alt="Top Languages" />
-
-</div>
 
 ---
 
